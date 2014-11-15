@@ -10,5 +10,11 @@
     "require": {
         "php": ">=5.3.3",
         "zendframework/zendframework": "2.3.*",
+		"symfony/css-selector": "3.0.*@dev",
+		"guzzlehttp/guzzle": "~5.0"
     },
+    "require-dev": {
+        "behat/behat": "3.0.*@dev",
+        "phpunit/phpunit": "~4.3"
+    }
 }
