@@ -6,7 +6,7 @@ use Behat\Behat\Context\SnippetAcceptingContext;
 /**
  * Defines application features from the specific context.
  */
-class FeatureContext implements Context, SnippetAcceptingContext
+class ScrapeBBCContext implements Context, SnippetAcceptingContext
 {
 	/**
 	 * Initializes context.
