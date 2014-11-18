@@ -29,4 +29,4 @@ From the project root run `phpunit -c test/phpunit`
 
 Experimental to see how Behat runs, I haven't wrote BDD tests prior to this.  
 
-From the project root run `vendor/bin/behat --config test/behat/behat.yaml`
+From the project root run `vendor/bin/behat --config test/behat/behat.yml`
