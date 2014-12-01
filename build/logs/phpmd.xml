@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pmd version="@project.version@" timestamp="2014-11-27T08:51:31+00:00">
+  <file name="/Users/stephen/Sites/fizzbuzz/sainsburys/application/module/Application/Module.php">
+    <violation beginline="17" endline="17" rule="ShortVariable" ruleset="Naming Rules" externalInfoUrl="http://phpmd.org/rules/naming.html#shortvariable" priority="3">
+      Avoid variables with short names like $e. Configured minimum length is 3.
+    </violation>
+  </file>
+  <file name="/Users/stephen/Sites/fizzbuzz/sainsburys/application/module/PageScrape/Module.php">
+    <violation beginline="37" endline="37" rule="UnusedFormalParameter" ruleset="Unused Code Rules" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedformalparameter" priority="3">
+      Avoid unused parameters such as '$console'.
+    </violation>
+  </file>
+  <file name="/Users/stephen/Sites/fizzbuzz/sainsburys/application/module/PageScrape/src/PageScrape/Service/BBCScrapeService.php">
+    <violation beginline="47" endline="47" rule="StaticAccess" ruleset="Clean Code Rules" externalInfoUrl="http://phpmd.org/rules/cleancode.html#staticaccess" priority="1">
+      Avoid using static access to class '::' in method '::'.
+    </violation>
+    <violation beginline="63" endline="63" rule="StaticAccess" ruleset="Clean Code Rules" externalInfoUrl="http://phpmd.org/rules/cleancode.html#staticaccess" priority="1">
+      Avoid using static access to class '::' in method '::'.
+    </violation>
+    <violation beginline="76" endline="93" rule="CamelCaseParameterName" ruleset="Controversial Rules" package="PageScrape\Service" externalInfoUrl="#" class="BBCScrapeService" method="extractTopWords" priority="1">
+      The parameter $stop_words is not named in camelCase.
+    </violation>
+    <violation beginline="76" endline="93" rule="CamelCaseParameterName" ruleset="Controversial Rules" package="PageScrape\Service" externalInfoUrl="#" class="BBCScrapeService" method="extractTopWords" priority="1">
+      The parameter $max_count is not named in camelCase.
+    </violation>
+    <violation beginline="76" endline="93" rule="CamelCaseVariableName" ruleset="Controversial Rules" package="PageScrape\Service" externalInfoUrl="#" class="BBCScrapeService" method="extractTopWords" priority="1">
+      The variable $match_words is not named in camelCase.
+    </violation>
+    <violation beginline="76" endline="93" rule="CamelCaseVariableName" ruleset="Controversial Rules" package="PageScrape\Service" externalInfoUrl="#" class="BBCScrapeService" method="extractTopWords" priority="1">
+      The variable $match_words is not named in camelCase.
+    </violation>
+    <violation beginline="76" endline="93" rule="CamelCaseVariableName" ruleset="Controversial Rules" package="PageScrape\Service" externalInfoUrl="#" class="BBCScrapeService" method="extractTopWords" priority="1">
+      The variable $match_words is not named in camelCase.
+    </violation>
+    <violation beginline="76" endline="93" rule="CamelCaseVariableName" ruleset="Controversial Rules" package="PageScrape\Service" externalInfoUrl="#" class="BBCScrapeService" method="extractTopWords" priority="1">
+      The variable $match_words is not named in camelCase.
+    </violation>
+    <violation beginline="76" endline="93" rule="CamelCaseVariableName" ruleset="Controversial Rules" package="PageScrape\Service" externalInfoUrl="#" class="BBCScrapeService" method="extractTopWords" priority="1">
+      The variable $stop_words is not named in camelCase.
+    </violation>
+    <violation beginline="76" endline="93" rule="CamelCaseVariableName" ruleset="Controversial Rules" package="PageScrape\Service" externalInfoUrl="#" class="BBCScrapeService" method="extractTopWords" priority="1">
+      The variable $match_words is not named in camelCase.
+    </violation>
+    <violation beginline="76" endline="93" rule="CamelCaseVariableName" ruleset="Controversial Rules" package="PageScrape\Service" externalInfoUrl="#" class="BBCScrapeService" method="extractTopWords" priority="1">
+      The variable $word_count is not named in camelCase.
+    </violation>
+    <violation beginline="76" endline="93" rule="CamelCaseVariableName" ruleset="Controversial Rules" package="PageScrape\Service" externalInfoUrl="#" class="BBCScrapeService" method="extractTopWords" priority="1">
+      The variable $match_words is not named in camelCase.
+    </violation>
+    <violation beginline="76" endline="93" rule="CamelCaseVariableName" ruleset="Controversial Rules" package="PageScrape\Service" externalInfoUrl="#" class="BBCScrapeService" method="extractTopWords" priority="1">
+      The variable $word_count is not named in camelCase.
+    </violation>
+    <violation beginline="76" endline="93" rule="CamelCaseVariableName" ruleset="Controversial Rules" package="PageScrape\Service" externalInfoUrl="#" class="BBCScrapeService" method="extractTopWords" priority="1">
+      The variable $max_count is not named in camelCase.
+    </violation>
+  </file>
+  <file name="/Users/stephen/Sites/fizzbuzz/sainsburys/application/module/PageScrape/src/PageScrape/Service/PageScrape.php">
+    <violation beginline="102" endline="102" rule="StaticAccess" ruleset="Clean Code Rules" externalInfoUrl="http://phpmd.org/rules/cleancode.html#staticaccess" priority="1">
+      Avoid using static access to class '::' in method '::'.
+    </violation>
+  </file>
+  <file name="/Users/stephen/Sites/fizzbuzz/sainsburys/application/module/PageScrape/test/PageScrapeTest/Controller/CliControllerTest.php">
+    <violation beginline="28" endline="28" rule="ShortVariable" ruleset="Naming Rules" externalInfoUrl="http://phpmd.org/rules/naming.html#shortvariable" priority="3">
+      Avoid variables with short names like $sm. Configured minimum length is 3.
+    </violation>
+    <violation beginline="28" endline="28" rule="UnusedLocalVariable" ruleset="Unused Code Rules" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedlocalvariable" priority="3">
+      Avoid unused local variables such as '$sm'.
+    </violation>
+  </file>
+  <file name="/Users/stephen/Sites/fizzbuzz/sainsburys/application/module/PageScrape/test/PageScrapeTest/Service/BBCScrapeServiceTest.php">
+    <violation beginline="79" endline="79" rule="UnusedLocalVariable" ruleset="Unused Code Rules" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedlocalvariable" priority="3">
+      Avoid unused local variables such as '$links'.
+    </violation>
+  </file>
+</pmd>

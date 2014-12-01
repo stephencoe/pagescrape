@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src#" full="PageScrapeTest\Controller\CliControllerTest" namespace="PageScrapeTest\Controller" name="CliControllerTest" abstract="false" final="false" start="6" end="33">
+  <file path="./application/module/PageScrape/test/PageScrapeTest/Controller" file="CliControllerTest.php" realpath="/Users/stephen/Sites/fizzbuzz/sainsburys/application/module/PageScrape/test/PageScrapeTest/Controller/CliControllerTest.php" size="904" time="2014-11-24T23:57:21+00:00" unixtime="1416873441" sha1="994861298d2896de1efe94ee5e692b3562050b0d"/>
+  <extends full="Zend\Test\PHPUnit\Controller\AbstractControllerTestCase" namespace="Zend\Test\PHPUnit\Controller" name="AbstractControllerTestCase"/>
+  <method name="setUp" start="8" end="14" abstract="false" final="false" static="false" visibility="protected"/>
+  <method name="testScrapeBBCTopShared" start="16" end="32" abstract="false" final="false" static="false" visibility="public">
+    <inline>
+      <comment value="dispatch url" line="19"/>
+      <comment value="basic assertions" line="22"/>
+      <comment value="custom assert" line="27"/>
+    </inline>
+  </method>
+</class>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src#" full="PageScrape\Controller\CliController" namespace="PageScrape\Controller" name="CliController" abstract="false" final="false" start="10" end="72">
+  <file path="./application/module/PageScrape/src/PageScrape/Controller" file="CliController.php" realpath="/Users/stephen/Sites/fizzbuzz/sainsburys/application/module/PageScrape/src/PageScrape/Controller/CliController.php" size="1812" time="2014-11-24T23:57:20+00:00" unixtime="1416873440" sha1="ad9687315b863458ed753c13d525b680ea4f9c56"/>
+  <extends full="Zend\Mvc\Controller\AbstractActionController" namespace="Zend\Mvc\Controller" name="AbstractActionController"/>
+  <implements full="Zend\ServiceManager\ServiceLocatorAwareInterface" namespace="Zend\ServiceManager" name="ServiceLocatorAwareInterface"/>
+  <member name="serviceLocator" type="{unknown}" visibility="protected" line="15">
+    <docblock>
+      <description/>
+      <var type="object">
+        <type full="Zend\ServiceManager\ServiceLocatorInterface" namespace="Zend\ServiceManager" name="ServiceLocatorInterface"/>
+      </var>
+    </docblock>
+  </member>
+  <member name="scrapeService" type="{unknown}" visibility="protected" line="20">
+    <docblock>
+      <description/>
+      <var type="object">
+        <type full="PageScrape\Controller\|PageScrap\Service\BBCScrapeService" namespace="PageScrape\Controller\|PageScrap\Service" name="BBCScrapeService"/>
+      </var>
+    </docblock>
+  </member>
+  <method name="scrapeBBCTopSharedAction" start="22" end="36" abstract="false" final="false" static="false" visibility="public"/>
+  <method name="getScrapeService" start="43" end="50" abstract="false" final="false" static="false" visibility="private">
+    <docblock>
+      <description/>
+      <return type="object">
+        <type full="PageScrape\Controller\|PageScrap\Service\BBCScrapeService" namespace="PageScrape\Controller\|PageScrap\Service" name="BBCScrapeService"/>
+      </return>
+    </docblock>
+  </method>
+  <method name="setServiceLocator" start="56" end="61" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="object" variable="$serviceLocator">
+        <type full="Zend\ServiceManager\ServiceLocatorInterface" namespace="Zend\ServiceManager" name="ServiceLocatorInterface"/>
+      </param>
+      <return type="object">
+        <type full="PageScrape\Controller\$this|void" namespace="PageScrape\Controller" name="$this|void"/>
+      </return>
+    </docblock>
+    <parameter name="serviceLocator" byreference="false" type="object">
+      <type full="Zend\ServiceManager\ServiceLocatorInterface" namespace="Zend\ServiceManager" name="ServiceLocatorInterface"/>
+    </parameter>
+  </method>
+  <method name="getServiceLocator" start="68" end="71" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Get service locator"/>
+      <return type="object">
+        <type full="Zend\ServiceManager\ServiceLocatorInterface" namespace="Zend\ServiceManager" name="ServiceLocatorInterface"/>
+      </return>
+    </docblock>
+  </method>
+</class>

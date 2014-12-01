@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src#" full="PageScrapeTest\ModuleTest" namespace="PageScrapeTest" name="ModuleTest" abstract="false" final="false" start="11" end="42">
+  <file path="./application/module/PageScrape/test/PageScrapeTest" file="ModuleTest.php" realpath="/Users/stephen/Sites/fizzbuzz/sainsburys/application/module/PageScrape/test/PageScrapeTest/ModuleTest.php" size="1016" time="2014-11-24T23:57:22+00:00" unixtime="1416873442" sha1="87ec71df1c2b56bf85cdad4aa9bcef5d07c8238a"/>
+  <docblock>
+    <description/>
+    <covers value="PageScrape\Module"/>
+  </docblock>
+  <extends full="PHPUnit_Framework_TestCase" namespace="" name="PHPUnit_Framework_TestCase"/>
+  <method name="testGetAutoloaderConfig" start="16" end="21" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <covers value="PageScrape\Module::getAutoloaderConfig"/>
+    </docblock>
+    <inline>
+      <comment value="just testing ZF specification requirements" line="19"/>
+    </inline>
+  </method>
+  <method name="testGetConfig" start="26" end="31" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <covers value="PageScrape\Module::getConfig"/>
+    </docblock>
+    <inline>
+      <comment value="just testing ZF specification requirements" line="29"/>
+    </inline>
+  </method>
+  <method name="testGetServiceConfig" start="36" end="41" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <covers value="PageScrape\Module::getServiceConfig"/>
+    </docblock>
+    <inline>
+      <comment value="just testing ZF specification requirements" line="39"/>
+    </inline>
+  </method>
+</class>

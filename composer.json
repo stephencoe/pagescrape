@@ -7,6 +7,9 @@
         "zf2"
     ],
     "homepage": "http://framework.zend.com/",
+	"config": {
+		"vendor-dir": "application/vendor"
+	},
     "require": {
         "php": ">=5.3.3",
         "zendframework/zendframework": "2.3.*",
@@ -15,6 +18,14 @@
     },
     "require-dev": {
         "behat/behat": "3.0.*@dev",
-        "phpunit/phpunit": "~4.3"
+        "phpunit/phpunit": "~4.3",
+		"phploc/phploc": "2.0.6",
+		"phpmd/phpmd" : "@stable",
+		"sebastian/phpcpd": "*",
+		"theseer/phpdox": "0.6.6.1",
+		"squizlabs/php_codesniffer": "2.0.0a2",
+
+		"pdepend/pdepend": "2.0.0",
+		"fabpot/php-cs-fixer":"1.1.*"
     }
 }

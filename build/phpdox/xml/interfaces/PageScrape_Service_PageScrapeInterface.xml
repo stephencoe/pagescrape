@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface xmlns="http://xml.phpdox.net/src#" full="PageScrape\Service\PageScrapeInterface" namespace="PageScrape\Service" name="PageScrapeInterface" abstract="false" final="false" start="4" end="18">
+  <file path="./application/module/PageScrape/src/PageScrape/Service" file="PageScrapeInterface.php" realpath="/Users/stephen/Sites/fizzbuzz/sainsburys/application/module/PageScrape/src/PageScrape/Service/PageScrapeInterface.php" size="324" time="2014-11-24T23:57:21+00:00" unixtime="1416873441" sha1="5de7ff06ad80c7bd0280056086fb714300a2ddd6"/>
+  <method name="getPage" start="10" end="10" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Get the page being scraped"/>
+      <return type="mixed"/>
+    </docblock>
+    <parameter name="url" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="scrapePage" start="17" end="17" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Scrape the content and generate the response"/>
+      <param variable="$url"/>
+      <return type="mixed"/>
+    </docblock>
+    <parameter name="url" byreference="false" type="{unknown}"/>
+  </method>
+  <implementor full="PageScrape\Service\BBCScrapeService" namespace="PageScrape\Service" name="BBCScrapeService"/>
+</interface>

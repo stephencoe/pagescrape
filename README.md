@@ -23,10 +23,10 @@ php public/index.php scrape bbc-top-shared
 
 ### Unit Tests
 
-From the project root run `phpunit -c test/phpunit`
+From the project root run `phpunit -c ./tests/phpunit`
 
 ### Behat Tests
 
 Experimental to see how Behat runs, I haven't wrote BDD tests prior to this.  
 
-From the project root run `vendor/bin/behat --config test/behat/behat.yml`
+From the project root run `vendor/bin/behat --config tests/behat/behat.yml`

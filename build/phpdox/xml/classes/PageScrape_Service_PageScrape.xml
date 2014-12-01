@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src#" full="PageScrape\Service\PageScrape" namespace="PageScrape\Service" name="PageScrape" abstract="true" final="false" start="9" end="104">
+  <file path="./application/module/PageScrape/src/PageScrape/Service" file="PageScrape.php" realpath="/Users/stephen/Sites/fizzbuzz/sainsburys/application/module/PageScrape/src/PageScrape/Service/PageScrape.php" size="2359" time="2014-11-24T23:57:21+00:00" unixtime="1416873441" sha1="f448e317d5fc1694a11e16a987bab4a6bfd21987"/>
+  <member name="content" type="{unknown}" visibility="protected" line="14">
+    <docblock>
+      <description/>
+      <var type="object">
+        <type full="\DOMDocument" namespace="" name="DOMDocument"/>
+      </var>
+    </docblock>
+  </member>
+  <member name="client" type="{unknown}" visibility="protected" line="19">
+    <docblock>
+      <description/>
+      <var type="object">
+        <type full="GuzzleHttp\Client" namespace="GuzzleHttp" name="Client"/>
+      </var>
+    </docblock>
+  </member>
+  <constructor name="__construct" start="21" end="24" abstract="false" final="false" static="false" visibility="public"/>
+  <method name="loadDom" start="31" end="38" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Load the dom"/>
+      <param type="object" variable="$html">
+        <type full="GuzzleHttp\Message\Response" namespace="GuzzleHttp\Message" name="Response"/>
+      </param>
+      <return type="object">
+        <type full="\DOMDocument" namespace="" name="DOMDocument"/>
+      </return>
+    </docblock>
+    <parameter name="html" byreference="false" type="{unknown}"/>
+    <inline>
+      <comment value="suppress errors for the dirty code html body. :(" line="34"/>
+    </inline>
+  </method>
+  <method name="getListLinks" start="46" end="67" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param variable="$page"/>
+      <param variable="$selector"/>
+      <return type="array"/>
+      <throws type="object">
+        <type full="\Exception" namespace="" name="Exception"/>
+      </throws>
+    </docblock>
+    <parameter name="page" byreference="false" type="{unknown}"/>
+    <parameter name="selector" byreference="false" type="{unknown}"/>
+    <inline>
+      <comment value="get the top stories" line="54"/>
+      <comment value="add the page request to queue" line="62"/>
+    </inline>
+  </method>
+  <method name="getPage" start="74" end="88" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="string" variable="$url"/>
+      <return type="object">
+        <type full="GuzzleHttp\Message\Response" namespace="GuzzleHttp\Message" name="Response"/>
+      </return>
+      <throws type="object">
+        <type full="\Exception" namespace="" name="Exception"/>
+      </throws>
+    </docblock>
+    <parameter name="url" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="getPages" start="95" end="103" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Init Guzzle MultiRequests"/>
+      <param type="array" variable="$urls"/>
+      <return type="object">
+        <type full="\GuzzleHttp\BatchResults" namespace="\GuzzleHttp" name="BatchResults"/>
+      </return>
+    </docblock>
+    <parameter name="urls" byreference="false" type="array"/>
+  </method>
+  <extender full="PageScrape\Service\BBCScrapeService" namespace="PageScrape\Service" name="BBCScrapeService"/>
+</class>

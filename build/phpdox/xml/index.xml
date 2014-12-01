@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<index xmlns="http://xml.phpdox.net/src#" basedir="/Users/stephen/Sites/fizzbuzz/sainsburys/application/module">
+  <namespace name="Application">
+    <class name="Module" src="Application/Module.php" xml="classes/Application_Module.xml"/>
+  </namespace>
+  <namespace name="Application\Controller">
+    <class name="IndexController" src="Application/src/Application/Controller/IndexController.php" xml="classes/Application_Controller_IndexController.xml"/>
+  </namespace>
+  <namespace name="PageScrape">
+    <class name="Module" src="PageScrape/Module.php" xml="classes/PageScrape_Module.xml"/>
+  </namespace>
+  <namespace name="PageScrape\Controller">
+    <class name="CliController" src="PageScrape/src/PageScrape/Controller/CliController.php" xml="classes/PageScrape_Controller_CliController.xml"/>
+  </namespace>
+  <namespace name="PageScrape\Service">
+    <class name="BBCScrapeService" src="PageScrape/src/PageScrape/Service/BBCScrapeService.php" xml="classes/PageScrape_Service_BBCScrapeService.xml"/>
+    <class name="PageScrape" src="PageScrape/src/PageScrape/Service/PageScrape.php" xml="classes/PageScrape_Service_PageScrape.xml"/>
+    <interface name="PageScrapeInterface" src="PageScrape/src/PageScrape/Service/PageScrapeInterface.php" xml="interfaces/PageScrape_Service_PageScrapeInterface.xml"/>
+  </namespace>
+  <namespace name="PageScrapeTest\Controller">
+    <class name="CliControllerTest" src="PageScrape/test/PageScrapeTest/Controller/CliControllerTest.php" xml="classes/PageScrapeTest_Controller_CliControllerTest.xml"/>
+  </namespace>
+  <namespace name="PageScrapeTest">
+    <class name="ModuleTest" src="PageScrape/test/PageScrapeTest/ModuleTest.php" xml="classes/PageScrapeTest_ModuleTest.xml"/>
+  </namespace>
+  <namespace name="PageScrapeTest\Service">
+    <class name="BBCScrapeServiceTest" src="PageScrape/test/PageScrapeTest/Service/BBCScrapeServiceTest.php" xml="classes/PageScrapeTest_Service_BBCScrapeServiceTest.xml"/>
+  </namespace>
+</index>

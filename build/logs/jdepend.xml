@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PDepend>
+  <Packages>
+    <Package name="Application">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/Users/stephen/Sites/fizzbuzz/sainsburys/application/module/Application/Module.php">Module</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Zend\Mvc</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Application\Controller">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>2</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/Users/stephen/Sites/fizzbuzz/sainsburys/application/module/Application/src/Application/Controller/IndexController.php">IndexController</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Zend\Mvc\Controller</Package>
+        <Package>Zend\View\Model</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="PageScrape">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>1</Ca>
+        <Ce>2</Ce>
+        <A>0</A>
+        <I>0.66666666666667</I>
+        <D>0.33333333333333</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/Users/stephen/Sites/fizzbuzz/sainsburys/application/module/PageScrape/Module.php">Module</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>PageScrape\Service</Package>
+        <Package>Zend\Console\Adapter</Package>
+      </DependsUpon>
+      <UsedBy>
+        <Package>PageScrapeTest</Package>
+      </UsedBy>
+    </Package>
+    <Package name="PageScrape\Controller">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>4</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/Users/stephen/Sites/fizzbuzz/sainsburys/application/module/PageScrape/src/PageScrape/Controller/CliController.php">CliController</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package></Package>
+        <Package>Zend\Console</Package>
+        <Package>Zend\Mvc\Controller</Package>
+        <Package>Zend\ServiceManager</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="PageScrape\Service">
+      <Stats>
+        <TotalClasses>3</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>2</AbstractClasses>
+        <Ca>2</Ca>
+        <Ce>4</Ce>
+        <A>0.66666666666667</A>
+        <I>0.66666666666667</I>
+        <D>0.33333333333333</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/Users/stephen/Sites/fizzbuzz/sainsburys/application/module/PageScrape/src/PageScrape/Service/BBCScrapeService.php">BBCScrapeService</Class>
+      </ConcreteClasses>
+      <AbstractClasses>
+        <Class sourceFile="/Users/stephen/Sites/fizzbuzz/sainsburys/application/module/PageScrape/src/PageScrape/Service/PageScrape.php">PageScrape</Class>
+        <Class sourceFile="/Users/stephen/Sites/fizzbuzz/sainsburys/application/module/PageScrape/src/PageScrape/Service/PageScrapeInterface.php">PageScrapeInterface</Class>
+      </AbstractClasses>
+      <DependsUpon>
+        <Package></Package>
+        <Package>GuzzleHttp</Package>
+        <Package>Symfony\Component\CssSelector</Package>
+        <Package>Zend\Dom</Package>
+      </DependsUpon>
+      <UsedBy>
+        <Package>PageScrape</Package>
+        <Package>PageScrapeTest\Service</Package>
+      </UsedBy>
+    </Package>
+    <Package name="PageScrapeTest\Controller">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/Users/stephen/Sites/fizzbuzz/sainsburys/application/module/PageScrape/test/PageScrapeTest/Controller/CliControllerTest.php">CliControllerTest</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Zend\Test\PHPUnit\Controller</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="PageScrapeTest">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>2</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/Users/stephen/Sites/fizzbuzz/sainsburys/application/module/PageScrape/test/PageScrapeTest/ModuleTest.php">ModuleTest</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package></Package>
+        <Package>PageScrape</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="PageScrapeTest\Service">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>2</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/Users/stephen/Sites/fizzbuzz/sainsburys/application/module/PageScrape/test/PageScrapeTest/Service/BBCScrapeServiceTest.php">BBCScrapeServiceTest</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package></Package>
+        <Package>PageScrape\Service</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+  </Packages>
+  <Cycles/>
+</PDepend>

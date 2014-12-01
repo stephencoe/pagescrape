@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src#" full="PageScrapeTest\Service\BBCScrapeServiceTest" namespace="PageScrapeTest\Service" name="BBCScrapeServiceTest" abstract="false" final="false" start="7" end="81">
+  <file path="./application/module/PageScrape/test/PageScrapeTest/Service" file="BBCScrapeServiceTest.php" realpath="/Users/stephen/Sites/fizzbuzz/sainsburys/application/module/PageScrape/test/PageScrapeTest/Service/BBCScrapeServiceTest.php" size="2990" time="2014-11-25T21:23:08+00:00" unixtime="1416950588" sha1="3d628f7a5998f1afc73c8fc6ee7634571f9bbda0"/>
+  <extends full="PHPUnit_Framework_TestCase" namespace="" name="PHPUnit_Framework_TestCase"/>
+  <member name="bbcScrapeService" type="{unknown}" visibility="protected" line="9"/>
+  <member name="wordList" type="string" default="'Landjaeger picanha turducken tri-tip shoulder. Cupim spare ribs ham hock flank chicken short ribs pork chop prosciutto porchetta alcatra andouille ball tip strip steak drumstick ham. Andouille swine jowl cow. Meatball cupim capicola sirloin, porchetta pork fatback turducken swine pancetta ball tip salami landjaeger brisket. Short loin frankfurter meatball, chuck t-bone brisket pork loin rump ham hock spare ribs meatloaf. Pancetta alcatra pastrami, jerky pork belly jowl salami ham hock porchetta tri-tip venison picanha turducken.'" visibility="private" line="11"/>
+  <method name="setUp" start="13" end="16" abstract="false" final="false" static="false" visibility="protected"/>
+  <method name="testExtractTopWords" start="18" end="26" abstract="false" final="false" static="false" visibility="public">
+    <inline>
+      <comment value="test stop words" line="24"/>
+    </inline>
+  </method>
+  <method name="testLoadDom" start="28" end="32" abstract="false" final="false" static="false" visibility="public"/>
+  <method name="testGetListLinks" start="34" end="80" abstract="false" final="false" static="false" visibility="public"/>
+</class>

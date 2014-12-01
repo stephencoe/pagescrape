@@ -2,11 +2,33 @@ language: php
 
 php:
   - 5.4
-  
+
 before_script:
   - composer self-update
   - composer install --no-interaction --prefer-source
+  - export PATH=$PATH:./application/vendor/bin
 
 script:
-  - ./vendor/bin/behat --config ./test/behat/behat.yml
-  - phpunit -c ./test/phpunit/phpunit.xml
+  ## PHP_CodeSniffer
+  - phpcs --extensions=php --standard=phpcs_ruleset.xml --ignore=autoload.php ./application/module
+  ## PHP Copy/Paste Detector
+  - /usr/bin/php phpcpd.phar ./application/module
+  ## PHP Mess Detector
+  - phpmd ./application/module xml cleancode,codesize,controversial,design,naming,unusedcode --reportfile ./build/logs/phpmd.xml
+  ## PHPLOC
+  - phploc --count-tests ./application/module
+  ## PHPDEPEND
+  - pdepend --jdepend-xml=./build/logs/jdepend.xml --jdepend-chart=./build/pdepend/dependencies.svg--overview-pyramid=./build/pdepend/overview-pyramid.svg ./application
+  ## PHPDOX
+  - phpdox ./build/
+  ## LINT
+  - find ./application/module -type f -name \*.php -exec php -l {} \;
+  ## PHPUNIT
+  - phpunit -c ./tests/phpunit/phpunit.xml --coverage-clover ./build/logs/clover.xml --coverage-html ./build/reports/
+  - php ./tests/coverage-checker.php ./build/logs/clover.xml 92
+  ## BEHAT
+  - behat --config ./tests/behat/behat.yml
+
+#notifications:
+#  email:
+#

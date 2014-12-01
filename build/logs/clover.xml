@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1416349739">
+  <project timestamp="1416349739">
+    <package name="PageScrape\Controller">
+      <file name="/Users/stephen/Sites/tests/sainsburys/module/PageScrape/src/PageScrape/Controller/CliController.php">
+        <class name="CliController" namespace="PageScrape\Controller">
+          <metrics methods="4" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="12" elements="19" coveredelements="15"/>
+        </class>
+        <line num="22" type="method" name="scrapeBBCTopSharedAction" crap="3.47" count="1"/>
+        <line num="24" type="stmt" count="1"/>
+        <line num="25" type="stmt" count="1"/>
+        <line num="26" type="stmt" count="0"/>
+        <line num="29" type="stmt" count="1"/>
+        <line num="31" type="stmt" count="1"/>
+        <line num="32" type="stmt" count="0"/>
+        <line num="33" type="stmt" count="0"/>
+        <line num="35" type="stmt" count="1"/>
+        <line num="44" type="method" name="getScrapeService" crap="2" count="1"/>
+        <line num="46" type="stmt" count="1"/>
+        <line num="47" type="stmt" count="1"/>
+        <line num="48" type="stmt" count="1"/>
+        <line num="49" type="stmt" count="1"/>
+        <line num="56" type="method" name="setServiceLocator" crap="1" count="1"/>
+        <line num="58" type="stmt" count="1"/>
+        <line num="59" type="stmt" count="1"/>
+        <line num="67" type="method" name="getServiceLocator" crap="1" count="1"/>
+        <line num="69" type="stmt" count="1"/>
+        <metrics loc="72" ncloc="51" classes="1" methods="4" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="12" elements="19" coveredelements="15"/>
+      </file>
+    </package>
+    <package name="PageScrape\Service">
+      <file name="/Users/stephen/Sites/tests/sainsburys/module/PageScrape/src/PageScrape/Service/BBCScrapeService.php">
+        <class name="BBCScrapeService" namespace="PageScrape\Service">
+          <metrics methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="37" coveredstatements="35" elements="40" coveredelements="37"/>
+        </class>
+        <line num="25" type="method" name="scrapePage" crap="4.02" count="1"/>
+        <line num="26" type="stmt" count="1"/>
+        <line num="28" type="stmt" count="1"/>
+        <line num="29" type="stmt" count="0"/>
+        <line num="32" type="stmt" count="1"/>
+        <line num="33" type="stmt" count="1"/>
+        <line num="34" type="stmt" count="1"/>
+        <line num="35" type="stmt" count="0"/>
+        <line num="38" type="stmt" count="1"/>
+        <line num="40" type="stmt" count="1"/>
+        <line num="42" type="stmt" count="1"/>
+        <line num="43" type="stmt" count="1"/>
+        <line num="44" type="stmt" count="1"/>
+        <line num="45" type="stmt" count="1"/>
+        <line num="46" type="stmt" count="1"/>
+        <line num="47" type="stmt" count="1"/>
+        <line num="49" type="stmt" count="1"/>
+        <line num="50" type="stmt" count="1"/>
+        <line num="51" type="stmt" count="1"/>
+        <line num="52" type="stmt" count="1"/>
+        <line num="59" type="method" name="mostUsedWord" crap="1" count="1"/>
+        <line num="60" type="stmt" count="1"/>
+        <line num="61" type="stmt" count="1"/>
+        <line num="62" type="stmt" count="1"/>
+        <line num="73" type="method" name="extractTopWords" crap="5" count="2"/>
+        <line num="74" type="stmt" count="2"/>
+        <line num="75" type="stmt" count="2"/>
+        <line num="76" type="stmt" count="2"/>
+        <line num="77" type="stmt" count="2"/>
+        <line num="79" type="stmt" count="2"/>
+        <line num="80" type="stmt" count="2"/>
+        <line num="82" type="stmt" count="2"/>
+        <line num="83" type="stmt" count="2"/>
+        <line num="84" type="stmt" count="2"/>
+        <line num="85" type="stmt" count="2"/>
+        <line num="86" type="stmt" count="2"/>
+        <line num="88" type="stmt" count="2"/>
+        <line num="89" type="stmt" count="2"/>
+        <line num="90" type="stmt" count="2"/>
+        <line num="92" type="stmt" count="2"/>
+        <metrics loc="94" ncloc="63" classes="1" methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="37" coveredstatements="35" elements="40" coveredelements="37"/>
+      </file>
+      <file name="/Users/stephen/Sites/tests/sainsburys/module/PageScrape/src/PageScrape/Service/PageScrape.php">
+        <class name="PageScrape" namespace="PageScrape\Service">
+          <metrics methods="5" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="29" coveredstatements="26" elements="34" coveredelements="29"/>
+        </class>
+        <line num="21" type="method" name="__construct" crap="1" count="4"/>
+        <line num="23" type="stmt" count="4"/>
+        <line num="24" type="stmt" count="4"/>
+        <line num="31" type="method" name="loadDom" crap="1" count="3"/>
+        <line num="33" type="stmt" count="3"/>
+        <line num="34" type="stmt" count="3"/>
+        <line num="35" type="stmt" count="3"/>
+        <line num="36" type="stmt" count="3"/>
+        <line num="45" type="method" name="getListLinks" crap="3.01" count="2"/>
+        <line num="47" type="stmt" count="2"/>
+        <line num="48" type="stmt" count="2"/>
+        <line num="49" type="stmt" count="0"/>
+        <line num="52" type="stmt" count="2"/>
+        <line num="54" type="stmt" count="2"/>
+        <line num="56" type="stmt" count="2"/>
+        <line num="57" type="stmt" count="2"/>
+        <line num="59" type="stmt" count="1"/>
+        <line num="62" type="stmt" count="1"/>
+        <line num="63" type="stmt" count="2"/>
+        <line num="65" type="stmt" count="2"/>
+        <line num="73" type="method" name="getPage" crap="3.33" count="1"/>
+        <line num="77" type="stmt" count="1"/>
+        <line num="78" type="stmt" count="1"/>
+        <line num="79" type="stmt" count="0"/>
+        <line num="82" type="stmt" count="1"/>
+        <line num="83" type="stmt" count="0"/>
+        <line num="85" type="stmt" count="1"/>
+        <line num="93" type="method" name="getPages" crap="2" count="1"/>
+        <line num="94" type="stmt" count="1"/>
+        <line num="95" type="stmt" count="1"/>
+        <line num="96" type="stmt" count="1"/>
+        <line num="97" type="stmt" count="1"/>
+        <line num="98" type="stmt" count="1"/>
+        <line num="100" type="stmt" count="1"/>
+        <metrics loc="101" ncloc="66" classes="1" methods="5" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="29" coveredstatements="26" elements="34" coveredelements="29"/>
+      </file>
+    </package>
+    <metrics files="3" loc="267" ncloc="180" classes="3" methods="12" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="81" coveredstatements="73" elements="93" coveredelements="81"/>
+  </project>
+</coverage>
